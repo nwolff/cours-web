@@ -1,0 +1,23 @@
+# All types of virtualenvs
+.direnv/
+.venv/
+.env/
+
+# sqlite databases
+*.db
+
+# Always
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac
+.DS_Store
+
+# Output
+build/
+
