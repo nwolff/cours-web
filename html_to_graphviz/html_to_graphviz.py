@@ -1,4 +1,5 @@
 import argparse
+from pathlib import Path
 from xml.etree.ElementTree import XMLParser
 
 import graphviz
@@ -9,7 +10,7 @@ class GraphvizBuilder:
         self.node_number = 0
         self.parents = []
 
-        g = graphviz.Graph(name="html.dot", directory="build")
+        g = graphviz.Graph(directory="build")
         g.attr("node", shape="none")
         g.attr("edge", penwidth="0.4", color="blue")
         g.attr("graph", layout="dot")
@@ -45,9 +46,11 @@ def html_to_graphviz(path_to_html: str) -> graphviz.Graph:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("input_html")
+    parser.add_argument("html_filepath")
 
     args = parser.parse_args()
 
-    graph = html_to_graphviz(args.input_html)
-    graph.save()
+    graph = html_to_graphviz(args.html_filepath)
+
+    name_of_file = Path(args.html_filepath).stem
+    graph.save(f"{name_of_file}.dot")

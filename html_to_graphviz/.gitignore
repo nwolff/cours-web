@@ -21,3 +21,6 @@ __pycache__/
 # Output
 build/
 
+# Local files we don't want in git
+local/
+

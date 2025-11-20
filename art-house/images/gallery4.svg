@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="300" fill="#f2e9de"/>
+  <polygon points="200,250 400,70 600,250" fill="#d0b49c"/>
+  <text x="270" y="270" font-size="22" fill="#4a3b2f" font-family="system-ui, sans-serif">
+    COLLINE EN ARRIÈRE-PLAN
+  </text>
+</svg>

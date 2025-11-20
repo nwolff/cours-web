@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="300" fill="#faeedc"/>
+  <ellipse cx="400" cy="150" rx="210" ry="90" fill="#b89c7d"/>
+  <text x="320" y="160" font-size="22" fill="#3b2f26" font-family="system-ui, sans-serif">
+    CIEL AVANT LA SÉANCE
+  </text>
+</svg>

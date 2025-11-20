@@ -1,7 +1,14 @@
-# cours-web
+# Cours Web
 
-This tool parses an html page and generate a tree representation of the nested tags.
+## Some tools to analyse websites
 
-To get an image you need to install graphviz, and then :
+Right now just one that builds a graphical representation on an html page
 
-    dot -Tsvg build/html.dot.gv > build/output.svg
+## A website to demonstrate technical aspects of the web
+
+- Absolute and relative URLS
+- Images
+- Hotlinked images
+- Stats with umami.is
+
+The contents of /art-house get automatically published to http://web.nwolff.info/ when main is pushed
