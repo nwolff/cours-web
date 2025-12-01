@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="300" fill="#efe8dd"/>
-  <rect x="90" y="70" width="620" height="160" fill="#c6b8a8"/>
-  <text x="120" y="150" font-size="24" fill="#4b3e32" font-family="system-ui, sans-serif">
-    RUE APRÈS LA PROJECTION
-  </text>
-</svg>

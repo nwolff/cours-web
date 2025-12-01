@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="300" fill="#f7efe3"/>
-  <circle cx="160" cy="160" r="70" fill="#d1a38a"/>
-  <text x="260" y="170" font-size="26" fill="#5a4636" font-family="system-ui, sans-serif">
-    SALLE VIDE
-  </text>
-</svg>

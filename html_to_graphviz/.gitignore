@@ -3,9 +3,6 @@
 .venv/
 .env/
 
-# sqlite databases
-*.db
-
 # Always
 __pycache__/
 .mypy_cache/
